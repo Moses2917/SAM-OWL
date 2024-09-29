@@ -215,4 +215,4 @@ iface = gr.Interface(
     description="Upload an image, provide a text prompt, and optionally a negative prompt to segment the image."
 )
 
-iface.launch()
+iface.launch(server_name="0.0.0.0", server_port=7860)
